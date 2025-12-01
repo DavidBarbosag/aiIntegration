@@ -47,3 +47,15 @@ para ser procesada por los modelos de IA.
 Este patrón va muy de la mano con el patrón de com- ponentes independientes, dentro de la solución propuesta
 se empleó como un medio de estandarización que permite los controladores de las IA se puedan adaptar fácilmente al
 software cumpliendo un contrato funcional, que garantiza que cada uno de estos implemente los métodos necesarios para poder integrarse efectivamente con la aplicación. 
+
+# Uso
+
+En linux 
+
+
+
+```
+export API_CHATGPT_KEY="tu_api_key_aqui"
+export API_CHATGPT_URL="https://api.openai.com/v1/chat/completions"
+mvn spring-boot:run
+```
